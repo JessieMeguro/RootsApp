@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,24 +13,24 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RootsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ln-kK-fcS">
-                                <rect key="frame" x="71" y="134" width="143" height="21.5"/>
+                                <rect key="frame" x="71" y="134" width="119" height="21.666666666666657"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" systemColor="systemGray6Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StopTheHate" translatesAutoresizingMaskIntoConstraints="NO" id="HZQ-xa-J34">
-                                <rect key="frame" x="0.0" y="181.5" width="414" height="414"/>
+                                <rect key="frame" x="0.0" y="181.66666666666663" width="390" height="414"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="414" id="S2z-PE-4x1"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Rt-Mh-Nnc">
-                                <rect key="frame" x="344" y="64" width="50" height="50"/>
+                                <rect key="frame" x="320" y="64" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="hWB-Pk-5hj"/>
                                     <constraint firstAttribute="width" constant="50" id="yCX-BV-lEG"/>
@@ -40,7 +40,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nnR-78-d3M">
-                                <rect key="frame" x="15" y="600.5" width="50" height="50"/>
+                                <rect key="frame" x="15" y="600.66666666666663" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Dhb-4H-l0T"/>
                                     <constraint firstAttribute="width" constant="50" id="S83-bQ-GSC"/>
@@ -52,14 +52,14 @@
                                 </state>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Foto1" translatesAutoresizingMaskIntoConstraints="NO" id="Ql1-C3-dQv">
-                                <rect key="frame" x="20" y="121.5" width="45" height="45"/>
+                                <rect key="frame" x="20" y="121.66666666666669" width="45" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="45" id="DYb-ks-gID"/>
                                     <constraint firstAttribute="height" constant="45" id="eAP-d3-x2O"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hw2-kQ-1g8">
-                                <rect key="frame" x="71" y="600.5" width="50" height="50"/>
+                                <rect key="frame" x="71" y="600.66666666666663" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="RHs-rD-VEe"/>
                                     <constraint firstAttribute="width" constant="50" id="oj8-yR-Gnz"/>
@@ -70,7 +70,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87T-Dj-L4g">
-                                <rect key="frame" x="127" y="600.5" width="50" height="50"/>
+                                <rect key="frame" x="127" y="600.66666666666663" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="1Sh-t4-dup"/>
                                     <constraint firstAttribute="width" constant="50" id="qKP-So-vh6"/>
@@ -81,7 +81,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZY-s5-nps">
-                                <rect key="frame" x="358" y="602.5" width="36" height="44"/>
+                                <rect key="frame" x="334" y="602.66666666666663" width="36" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="944-8Q-awX"/>
                                     <constraint firstAttribute="width" constant="36" id="IYt-99-urg"/>
@@ -92,14 +92,14 @@
                                 </state>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CaixaApps" translatesAutoresizingMaskIntoConstraints="NO" id="pCm-yg-UT5">
-                                <rect key="frame" x="40" y="766" width="334" height="96"/>
+                                <rect key="frame" x="40" y="714" width="310" height="96"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="96" id="1Z1-kD-CD2"/>
                                     <constraint firstAttribute="width" constant="334" id="Gac-q3-rsW"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7in-Yi-cnc">
-                                <rect key="frame" x="71" y="789" width="50" height="50"/>
+                                <rect key="frame" x="71" y="737" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="JYf-R8-qor"/>
                                     <constraint firstAttribute="height" constant="50" id="d7i-wa-mGu"/>
@@ -111,7 +111,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgB-Eb-afP">
-                                <rect key="frame" x="293" y="789" width="50" height="50"/>
+                                <rect key="frame" x="269" y="737" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="5fA-HA-Det"/>
                                     <constraint firstAttribute="height" constant="50" id="glg-WX-Gkq"/>
@@ -123,7 +123,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VgH-dn-9Y0">
-                                <rect key="frame" x="193" y="789" width="50" height="50"/>
+                                <rect key="frame" x="169" y="737" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Lgs-KO-mEy"/>
                                     <constraint firstAttribute="width" constant="50" id="eHM-yl-apx"/>
@@ -135,19 +135,19 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@usernamedapessoa Ridiculo! Não existe xenofobia." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JF-hd-vUm">
-                                <rect key="frame" x="20" y="665.5" width="374" height="14"/>
+                                <rect key="frame" x="20" y="665.66666666666663" width="350" height="14"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" systemColor="systemGray5Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@outrousernamealeatorio #StopTheHate. Uma luta contínua." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziI-Bx-QUe">
-                                <rect key="frame" x="20" y="682.5" width="374" height="14"/>
+                                <rect key="frame" x="20" y="682.66666666666663" width="350" height="14"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" systemColor="systemGray5Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KwC-yv-tje">
-                                <rect key="frame" x="289" y="64" width="50" height="50"/>
+                                <rect key="frame" x="265" y="64" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="73G-r2-ZMF"/>
                                     <constraint firstAttribute="width" constant="50" id="CXm-B8-CKt"/>
@@ -159,7 +159,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHM-jN-Xex">
-                                <rect key="frame" x="231" y="64" width="50" height="50"/>
+                                <rect key="frame" x="207" y="64" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Goc-EW-oFq"/>
                                     <constraint firstAttribute="width" constant="50" id="VRt-yq-vXq"/>
@@ -179,7 +179,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3360534825368946" green="0.32463166783966446" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pCm-yg-UT5" secondAttribute="bottom" id="2Nr-ig-2KC"/>
                             <constraint firstItem="pCm-yg-UT5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="3Hb-ah-2Ro"/>
@@ -227,6 +227,21 @@
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="115.84821428571428"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="m8q-Vy-0hG">
+            <objects>
+                <viewController id="7Ie-tL-hUc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j14-Jd-T3v">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="duY-aR-3NE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hvH-C5-dVO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="925" y="115"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Bateria98" width="1269" height="455"/>
@@ -242,6 +257,9 @@
         <image name="Photos" width="265" height="238"/>
         <image name="Spotify" width="222" height="232"/>
         <image name="StopTheHate" width="2048" height="2048"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
