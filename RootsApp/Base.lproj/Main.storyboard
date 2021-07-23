@@ -401,7 +401,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CaixaEscolhas" translatesAutoresizingMaskIntoConstraints="NO" id="yZo-Zs-Q6z">
-                                <rect key="frame" x="20" y="583" width="350" height="227"/>
+                                <rect key="frame" x="20" y="597" width="350" height="227"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="350" id="Tit-wA-Dfg"/>
                                     <constraint firstAttribute="height" constant="227" id="vtd-hs-sXP"/>
@@ -428,7 +428,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYp-nf-nSB">
-                                <rect key="frame" x="40" y="618" width="310" height="35"/>
+                                <rect key="frame" x="40" y="632" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Eu sou brasileira, cara.">
                                     <color key="titleColor" systemColor="systemIndigoColor"/>
@@ -450,7 +450,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMu-1c-jdz">
-                                <rect key="frame" x="40" y="676" width="310" height="35"/>
+                                <rect key="frame" x="40" y="690" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Meus pais são asiáticos, mas eu nasci aqui.">
                                     <color key="titleColor" systemColor="systemIndigoColor"/>
@@ -497,8 +497,8 @@
                                     <constraint firstAttribute="width" constant="7" id="Qgv-ww-VAJ"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rir-Ov-j2z">
-                                <rect key="frame" x="119" y="735" width="150" height="35"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rir-Ov-j2z">
+                                <rect key="frame" x="120" y="749" width="150" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Ah, eu sou do Japão.">
                                     <color key="titleColor" systemColor="systemIndigoColor"/>
@@ -513,7 +513,6 @@
                         <viewLayoutGuide key="safeArea" id="dDm-UK-0Ua"/>
                         <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="yZo-Zs-Q6z" firstAttribute="top" secondItem="nXB-FV-bj8" secondAttribute="bottom" constant="158" id="3dG-c8-Y2A"/>
                             <constraint firstItem="dDm-UK-0Ua" firstAttribute="trailing" secondItem="nXB-FV-bj8" secondAttribute="trailing" constant="50" id="9y3-sC-Qa5"/>
                             <constraint firstItem="OxV-h1-Gnz" firstAttribute="top" secondItem="dDm-UK-0Ua" secondAttribute="top" constant="20" id="Abg-C4-0Xl"/>
                             <constraint firstItem="NDW-4W-GVG" firstAttribute="centerY" secondItem="0UX-8Y-X9I" secondAttribute="centerY" id="Gs4-WX-FYP"/>
@@ -666,6 +665,7 @@
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="question1Tap:" destination="gWN-oc-ide" eventType="touchUpInside" id="RmV-Lr-QyN"/>
                                     <segue destination="ZNh-uh-peJ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="d02-o3-zXJ"/>
                                 </connections>
                             </button>
@@ -813,6 +813,7 @@
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="question1Tap:" destination="i4l-ZT-K6j" eventType="touchUpInside" id="z5Y-jn-Zv7"/>
                                     <segue destination="ZNh-uh-peJ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="Mb4-Ki-xs9"/>
                                 </connections>
                             </button>
@@ -962,6 +963,7 @@
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="question1Tap:" destination="FyD-yd-cmk" eventType="touchUpInside" id="Tnc-Ii-cHW"/>
                                     <segue destination="ZNh-uh-peJ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="ggc-oO-neH"/>
                                 </connections>
                             </button>
@@ -1207,9 +1209,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="GeF-Hl-sHX"/>
-        <segue reference="wiA-zi-yni"/>
-        <segue reference="C6m-S3-2hM"/>
+        <segue reference="ggc-oO-neH"/>
+        <segue reference="iaY-y0-2Qw"/>
+        <segue reference="IM2-lk-TgV"/>
         <segue reference="1zp-lb-Kro"/>
     </inferredMetricsTieBreakers>
     <resources>
