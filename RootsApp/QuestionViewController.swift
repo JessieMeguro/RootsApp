@@ -7,7 +7,7 @@
 
 import UIKit
 
-var score : CGFloat = 98
+var score : CGFloat = 100
 
 class QuestionViewController: UIViewController {
 
@@ -26,7 +26,7 @@ class QuestionViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     override func viewDidLayoutSubviews() {
-        progressBarWidth.constant = CGFloat(score / CGFloat(100)) * progressBarBackgroundView.frame.width //tava *
+        progressBarWidth.constant = progressBarBackgroundView.frame.width - (CGFloat(score / CGFloat(100)) * progressBarBackgroundView.frame.width) //tava *
         porcentageLabel.text = "\(score)%"
         progressBarBackgroundView.bringSubviewToFront(porcentageLabel)
     }
