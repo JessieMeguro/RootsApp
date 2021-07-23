@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9302D96D26AA835600FFF203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9302D96C26AA835500FFF203 /* Assets.xcassets */; };
+		931F42E926AB41120088A123 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F42E826AB41120088A123 /* QuestionViewController.swift */; };
 		93B03E3B26AA53F90048D813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B03E3A26AA53F90048D813 /* AppDelegate.swift */; };
 		93B03E3D26AA53F90048D813 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B03E3C26AA53F90048D813 /* SceneDelegate.swift */; };
 		93B03E3F26AA53F90048D813 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B03E3E26AA53F90048D813 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		9302D96C26AA835500FFF203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
+		931F42E826AB41120088A123 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		93B03E3726AA53F90048D813 /* RootsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RootsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B03E3A26AA53F90048D813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93B03E3C26AA53F90048D813 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				9302D96C26AA835500FFF203 /* Assets.xcassets */,
 				93B03E4526AA53FA0048D813 /* LaunchScreen.storyboard */,
 				93B03E4826AA53FA0048D813 /* Info.plist */,
+				931F42E826AB41120088A123 /* QuestionViewController.swift */,
 			);
 			path = RootsApp;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				93B03E3F26AA53F90048D813 /* ViewController.swift in Sources */,
 				93B03E3B26AA53F90048D813 /* AppDelegate.swift in Sources */,
+				931F42E926AB41120088A123 /* QuestionViewController.swift in Sources */,
 				93B03E3D26AA53F90048D813 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
