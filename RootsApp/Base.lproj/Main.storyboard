@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RootsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ln-kK-fcS">
+                                <rect key="frame" x="71" y="134" width="100.5" height="21.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" systemColor="systemGray6Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StopTheHate" translatesAutoresizingMaskIntoConstraints="NO" id="HZQ-xa-J34">
+                                <rect key="frame" x="0.0" y="181.5" width="414" height="414"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="414" id="S2z-PE-4x1"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Rt-Mh-Nnc">
+                                <rect key="frame" x="344" y="64" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="hWB-Pk-5hj"/>
+                                    <constraint firstAttribute="width" constant="50" id="yCX-BV-lEG"/>
+                                </constraints>
+                                <state key="normal" image="BotaoMensangensAmarelo">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nnR-78-d3M">
+                                <rect key="frame" x="15" y="600.5" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Dhb-4H-l0T"/>
+                                    <constraint firstAttribute="width" constant="50" id="S83-bQ-GSC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <state key="normal" image="Coracao">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Foto1" translatesAutoresizingMaskIntoConstraints="NO" id="Ql1-C3-dQv">
+                                <rect key="frame" x="20" y="121.5" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="DYb-ks-gID"/>
+                                    <constraint firstAttribute="height" constant="45" id="eAP-d3-x2O"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hw2-kQ-1g8">
+                                <rect key="frame" x="71" y="600.5" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="RHs-rD-VEe"/>
+                                    <constraint firstAttribute="width" constant="50" id="oj8-yR-Gnz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" image="BotaoComentario">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87T-Dj-L4g">
+                                <rect key="frame" x="127" y="600.5" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1Sh-t4-dup"/>
+                                    <constraint firstAttribute="width" constant="50" id="qKP-So-vh6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" image="BotaoCompartilharAmarelo">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZY-s5-nps">
+                                <rect key="frame" x="358" y="602.5" width="36" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="944-8Q-awX"/>
+                                    <constraint firstAttribute="width" constant="36" id="IYt-99-urg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" image="BotaoSalvar">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CaixaApps" translatesAutoresizingMaskIntoConstraints="NO" id="pCm-yg-UT5">
+                                <rect key="frame" x="40" y="766" width="334" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="1Z1-kD-CD2"/>
+                                    <constraint firstAttribute="width" constant="334" id="Gac-q3-rsW"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7in-Yi-cnc">
+                                <rect key="frame" x="71" y="789" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="JYf-R8-qor"/>
+                                    <constraint firstAttribute="height" constant="50" id="d7i-wa-mGu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <state key="normal" image="Spotify">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgB-Eb-afP">
+                                <rect key="frame" x="293" y="789" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="5fA-HA-Det"/>
+                                    <constraint firstAttribute="height" constant="50" id="glg-WX-Gkq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <state key="normal" image="Instagram">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VgH-dn-9Y0">
+                                <rect key="frame" x="193" y="789" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Lgs-KO-mEy"/>
+                                    <constraint firstAttribute="width" constant="50" id="eHM-yl-apx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <state key="normal" image="Photos">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@usernamedapessoa Ridiculo! Não existe xenofobia." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JF-hd-vUm">
+                                <rect key="frame" x="20" y="665.5" width="374" height="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" systemColor="systemGray5Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@outrousernamealeatorio #StopTheHate. Uma luta contínua." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziI-Bx-QUe">
+                                <rect key="frame" x="20" y="682.5" width="374" height="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" systemColor="systemGray5Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KwC-yv-tje">
+                                <rect key="frame" x="289" y="64" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="73G-r2-ZMF"/>
+                                    <constraint firstAttribute="width" constant="50" id="CXm-B8-CKt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <state key="normal" image="Coracao">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHM-jN-Xex">
+                                <rect key="frame" x="231" y="64" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Goc-EW-oFq"/>
+                                    <constraint firstAttribute="width" constant="50" id="VRt-yq-vXq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <state key="normal" image="BotaoMais">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bateria98" translatesAutoresizingMaskIntoConstraints="NO" id="NVF-QL-PzF">
+                                <rect key="frame" x="20" y="64" width="84" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="aME-Yb-H8X"/>
+                                    <constraint firstAttribute="width" constant="84" id="yeT-VP-IR4"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pCm-yg-UT5" secondAttribute="bottom" id="2Nr-ig-2KC"/>
+                            <constraint firstItem="pCm-yg-UT5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="3Hb-ah-2Ro"/>
+                            <constraint firstItem="1JF-hd-vUm" firstAttribute="top" secondItem="nnR-78-d3M" secondAttribute="bottom" constant="15" id="3Jw-bt-7IY"/>
+                            <constraint firstItem="NVF-QL-PzF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="6cw-Hr-pMI"/>
+                            <constraint firstItem="7in-Yi-cnc" firstAttribute="top" secondItem="pCm-yg-UT5" secondAttribute="bottom" constant="-73" id="780-7U-dQM"/>
+                            <constraint firstItem="8Rt-Mh-Nnc" firstAttribute="leading" secondItem="KwC-yv-tje" secondAttribute="trailing" constant="5" id="7Hb-Pq-3jm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LZY-s5-nps" secondAttribute="trailing" constant="20" id="8E3-FN-hfp"/>
+                            <constraint firstItem="pCm-yg-UT5" firstAttribute="leading" secondItem="7in-Yi-cnc" secondAttribute="trailing" constant="-81" id="AW3-wb-gBU"/>
+                            <constraint firstItem="VgH-dn-9Y0" firstAttribute="top" secondItem="pCm-yg-UT5" secondAttribute="bottom" constant="-73" id="Aj2-Nh-GSR"/>
+                            <constraint firstItem="HZQ-xa-J34" firstAttribute="top" secondItem="3ln-kK-fcS" secondAttribute="bottom" constant="26" id="BVB-w1-han"/>
+                            <constraint firstItem="LZY-s5-nps" firstAttribute="top" secondItem="HZQ-xa-J34" secondAttribute="bottom" constant="7" id="E4Y-jl-LWn"/>
+                            <constraint firstItem="Ql1-C3-dQv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EPv-1r-SOF"/>
+                            <constraint firstItem="KwC-yv-tje" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="FPG-Bi-uAr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pCm-yg-UT5" secondAttribute="trailing" constant="40" id="G6q-60-fdR"/>
+                            <constraint firstItem="87T-Dj-L4g" firstAttribute="leading" secondItem="hw2-kQ-1g8" secondAttribute="trailing" constant="6" id="KqO-Zf-O40"/>
+                            <constraint firstItem="8Rt-Mh-Nnc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="PPn-XQ-VU4"/>
+                            <constraint firstItem="iHM-jN-Xex" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Sv3-ne-dtv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ziI-Bx-QUe" secondAttribute="trailing" constant="20" id="UX0-Oj-lfu"/>
+                            <constraint firstItem="HZQ-xa-J34" firstAttribute="top" secondItem="Ql1-C3-dQv" secondAttribute="bottom" constant="15" id="WqK-jM-SAj"/>
+                            <constraint firstItem="HZQ-xa-J34" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ymu-al-Gnp"/>
+                            <constraint firstItem="KwC-yv-tje" firstAttribute="leading" secondItem="iHM-jN-Xex" secondAttribute="trailing" constant="8" symbolic="YES" id="Yu2-DN-vox"/>
+                            <constraint firstItem="ziI-Bx-QUe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZUI-Ku-1cz"/>
+                            <constraint firstItem="hw2-kQ-1g8" firstAttribute="leading" secondItem="nnR-78-d3M" secondAttribute="trailing" constant="6" id="Zvb-z9-caj"/>
+                            <constraint firstItem="hw2-kQ-1g8" firstAttribute="top" secondItem="HZQ-xa-J34" secondAttribute="bottom" constant="5" id="aAY-Kr-b8q"/>
+                            <constraint firstItem="3ln-kK-fcS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="bg5-rX-Eoi"/>
+                            <constraint firstItem="1JF-hd-vUm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dai-L8-7cg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Rt-Mh-Nnc" secondAttribute="trailing" constant="20" id="fdA-Yc-Dap"/>
+                            <constraint firstItem="ziI-Bx-QUe" firstAttribute="top" secondItem="1JF-hd-vUm" secondAttribute="bottom" constant="3" id="h2K-i3-2lS"/>
+                            <constraint firstItem="NVF-QL-PzF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hGg-QT-bw2"/>
+                            <constraint firstItem="nnR-78-d3M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="hrS-JL-8f5"/>
+                            <constraint firstItem="cgB-Eb-afP" firstAttribute="leading" secondItem="pCm-yg-UT5" secondAttribute="trailing" constant="-81" id="iOl-gA-pJ0"/>
+                            <constraint firstItem="cgB-Eb-afP" firstAttribute="top" secondItem="pCm-yg-UT5" secondAttribute="bottom" constant="-73" id="nHS-FD-lY5"/>
+                            <constraint firstItem="87T-Dj-L4g" firstAttribute="top" secondItem="HZQ-xa-J34" secondAttribute="bottom" constant="5" id="rKr-yc-Wa1"/>
+                            <constraint firstItem="3ln-kK-fcS" firstAttribute="leading" secondItem="Ql1-C3-dQv" secondAttribute="trailing" constant="6" id="t1p-je-EDW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HZQ-xa-J34" secondAttribute="trailing" id="tsz-kz-7jy"/>
+                            <constraint firstItem="cgB-Eb-afP" firstAttribute="leading" secondItem="VgH-dn-9Y0" secondAttribute="trailing" constant="50" id="u4K-N2-mEy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1JF-hd-vUm" secondAttribute="trailing" constant="20" id="vuY-DP-gE8"/>
+                            <constraint firstItem="nnR-78-d3M" firstAttribute="top" secondItem="HZQ-xa-J34" secondAttribute="bottom" constant="5" id="xg5-ZU-crC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bateria98" width="1269" height="455"/>
+        <image name="BotaoComentario" width="251" height="238"/>
+        <image name="BotaoCompartilharAmarelo" width="223" height="237"/>
+        <image name="BotaoMais" width="235" height="243"/>
+        <image name="BotaoMensangensAmarelo" width="255" height="254"/>
+        <image name="BotaoSalvar" width="198" height="210"/>
+        <image name="CaixaApps" width="980" height="264"/>
+        <image name="Coracao" width="253" height="263"/>
+        <image name="Foto1" width="609" height="607"/>
+        <image name="Instagram" width="229" height="228"/>
+        <image name="Photos" width="265" height="238"/>
+        <image name="Spotify" width="222" height="232"/>
+        <image name="StopTheHate" width="2048" height="2048"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
