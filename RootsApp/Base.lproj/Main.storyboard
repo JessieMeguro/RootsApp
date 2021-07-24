@@ -1013,7 +1013,6 @@
         <!--Question View Controller-->
         <scene sceneID="EBe-oB-A8b">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lWm-4z-D5M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="ZNh-uh-peJ" customClass="QuestionViewController" customModule="RootsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yH7-wf-29Q" userLabel="Question1View">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
@@ -1215,6 +1214,7 @@
                         <outlet property="progressBarWidth" destination="jpB-Iy-EnI" id="B3t-dt-5DM"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lWm-4z-D5M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2653.8461538461538" y="929.8578199052132"/>
         </scene>
@@ -2486,6 +2486,7 @@
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="qoH-qr-Fi0" eventType="touchUpInside" id="p8Q-Vs-kjv"/>
+                                    <segue destination="L9x-7A-7WY" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="cDE-Pk-EP9"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Nossa, que asiática de verdade não sabe falar japonês? É muito fácil, eu aprendi com anime!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="O3e-t0-Al2">
@@ -2505,6 +2506,10 @@
                                     <color key="titleColor" systemColor="systemIndigoColor"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="question1Tap:" destination="qoH-qr-Fi0" eventType="touchUpInside" id="EF5-iO-WnX"/>
+                                    <segue destination="L9x-7A-7WY" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="cDV-KD-9yg"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T0N-Tr-XLw">
                                 <rect key="frame" x="20" y="74" width="71" height="30"/>
@@ -2552,6 +2557,7 @@
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="qoH-qr-Fi0" eventType="touchUpInside" id="JZw-lX-urx"/>
+                                    <segue destination="73S-L6-EUW" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="gUl-LO-C4H"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2641,6 +2647,7 @@
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="xeg-0T-iat" eventType="touchUpInside" id="31c-Uv-tHg"/>
+                                    <segue destination="L9x-7A-7WY" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="f4L-dt-602"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Aposto que você fala com sotaque, manda um áudio ai pra mim falando &quot;flango&quot;, pfv." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RoT-5l-aQr">
@@ -2699,6 +2706,7 @@
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="xeg-0T-iat" eventType="touchUpInside" id="Tz8-N0-ize"/>
+                                    <segue destination="L9x-7A-7WY" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="frw-um-wTi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2789,6 +2797,7 @@
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="eGy-NP-e0k" eventType="touchUpInside" id="kZC-yk-hIq"/>
+                                    <segue destination="L9x-7A-7WY" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="T8e-5q-oJm"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Nossa, eu sempre pensei que asiáticos fossem calminhos. Devia abraçar mais sua cultura zen." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4U3-ch-Hee">
@@ -2847,6 +2856,7 @@
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="eGy-NP-e0k" eventType="touchUpInside" id="4UV-Xt-rfO"/>
+                                    <segue destination="L9x-7A-7WY" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="7eR-Cn-QPW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2937,9 +2947,10 @@
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="L9x-7A-7WY" eventType="touchUpInside" id="bVh-ve-yt4"/>
+                                    <segue destination="FPR-3e-09N" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="v4U-yh-0KH"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Você conhece a Ana Hikari? Ela é muito parecida com você." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OnZ-im-KPh">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="E você conhece a Ana Hikari? Ela é muito parecida com você." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OnZ-im-KPh">
                                 <rect key="frame" x="79" y="298" width="233" height="84"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="233" id="Je5-uo-ym2"/>
@@ -2949,13 +2960,17 @@
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xs-xj-TKh">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xs-xj-TKh">
                                 <rect key="frame" x="37.666666666666657" y="690" width="315" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Sou mais parecida com a Scarlet Johansson">
                                     <color key="titleColor" systemColor="systemIndigoColor"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="question1Tap:" destination="L9x-7A-7WY" eventType="touchUpInside" id="Xrd-84-qHX"/>
+                                    <segue destination="bZU-RI-8yQ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="lp6-Ar-qzu"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ph6-ZB-d9d">
                                 <rect key="frame" x="20" y="74" width="71" height="30"/>
@@ -2994,15 +3009,16 @@
                                     <constraint firstAttribute="width" constant="7" id="far-WX-ReJ"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKs-Mg-WH6">
-                                <rect key="frame" x="62.666666666666657" y="749" width="265" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKs-Mg-WH6">
+                                <rect key="frame" x="52.666666666666657" y="749" width="285" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
-                                <state key="normal" title="Nem todos os asiáticos se conhecem.">
+                                <state key="normal" title="Ridículo, achar que amarelos são iguais.">
                                     <color key="titleColor" systemColor="systemIndigoColor"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="L9x-7A-7WY" eventType="touchUpInside" id="s21-FG-VAQ"/>
+                                    <segue destination="du4-hM-bDG" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="w2t-GZ-DFl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3038,15 +3054,15 @@
                     </view>
                     <navigationItem key="navigationItem" id="qd2-Jv-eHu"/>
                     <connections>
-                        <outlet property="porcentageLabel" destination="J0Q-TJ-tuo" id="QS0-Wm-xlM"/>
-                        <outlet property="progressBar" destination="oY0-Ql-o6M" id="Wfc-GD-SYv"/>
-                        <outlet property="progressBarBackgroundView" destination="ph6-ZB-d9d" id="dfL-9k-dPB"/>
-                        <outlet property="progressBarWidth" destination="RGr-cg-PYG" id="bjf-Lh-2RY"/>
+                        <outlet property="porcentageLabel" destination="J0Q-TJ-tuo" id="X7x-NC-uWj"/>
+                        <outlet property="progressBar" destination="oY0-Ql-o6M" id="9w2-29-JSP"/>
+                        <outlet property="progressBarBackgroundView" destination="ph6-ZB-d9d" id="H21-D6-izk"/>
+                        <outlet property="progressBarWidth" destination="RGr-cg-PYG" id="qIp-xC-jnY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J18-e0-G1X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5405" y="-30"/>
+            <point key="canvasLocation" x="5643" y="514"/>
         </scene>
         <!--Question View Controller-->
         <scene sceneID="PEU-6n-odV">
@@ -3092,6 +3108,7 @@
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="73S-L6-EUW" eventType="touchUpInside" id="xFZ-Tj-jja"/>
+                                    <segue destination="FPR-3e-09N" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="zw6-Bl-wAc"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Olhos puxadinhos, falante de japonês. Aliás você é parente da Ana Hikari? Vocês são parecidas." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ld9-Fy-F9f">
@@ -3111,6 +3128,10 @@
                                     <color key="titleColor" systemColor="systemIndigoColor"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="question1Tap:" destination="73S-L6-EUW" eventType="touchUpInside" id="g0Q-vT-Lbl"/>
+                                    <segue destination="bZU-RI-8yQ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="iZS-hG-FwO"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l1H-BW-DW0">
                                 <rect key="frame" x="20" y="74" width="71" height="30"/>
@@ -3150,14 +3171,15 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVu-dU-yz7">
-                                <rect key="frame" x="62.666666666666657" y="749" width="265" height="35"/>
+                                <rect key="frame" x="53" y="749" width="284" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
-                                <state key="normal" title="Nem todos os asiáticos se conhecem.">
+                                <state key="normal" title="Ridiculo, achar que amarelos são iguais.">
                                     <color key="titleColor" systemColor="systemIndigoColor"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="73S-L6-EUW" eventType="touchUpInside" id="7fn-52-FND"/>
+                                    <segue destination="du4-hM-bDG" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="OBK-Je-CAi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3193,15 +3215,15 @@
                     </view>
                     <navigationItem key="navigationItem" id="waK-Yj-4iK"/>
                     <connections>
-                        <outlet property="porcentageLabel" destination="m6s-HF-Ebo" id="nH6-pe-kXj"/>
-                        <outlet property="progressBar" destination="TX7-1r-feg" id="aNs-KZ-b07"/>
-                        <outlet property="progressBarBackgroundView" destination="l1H-BW-DW0" id="OCU-Om-cvy"/>
-                        <outlet property="progressBarWidth" destination="Y1k-Ny-oub" id="GEm-H9-FTT"/>
+                        <outlet property="porcentageLabel" destination="m6s-HF-Ebo" id="fBd-A4-0xa"/>
+                        <outlet property="progressBar" destination="TX7-1r-feg" id="rXD-VJ-XVj"/>
+                        <outlet property="progressBarBackgroundView" destination="l1H-BW-DW0" id="wiS-A3-E8v"/>
+                        <outlet property="progressBarWidth" destination="Y1k-Ny-oub" id="ycJ-FW-a1o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2l2-xF-uFV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5405" y="660"/>
+            <point key="canvasLocation" x="5643" y="1204"/>
         </scene>
         <!--Question View Controller-->
         <scene sceneID="doJ-cm-Yrp">
@@ -3238,7 +3260,7 @@
                                     <constraint firstAttribute="height" constant="45" id="YEA-KK-hOl"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78v-TU-Z7Z">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78v-TU-Z7Z">
                                 <rect key="frame" x="40" y="658" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Conversa legal mas vou ter que sair...">
@@ -3296,7 +3318,7 @@
                                     <constraint firstAttribute="width" constant="7" id="ai6-kh-LcF"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0U-S6-ks0">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0U-S6-ks0">
                                 <rect key="frame" x="56" y="726" width="278" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Bloquear usuário.">
@@ -3341,10 +3363,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="uIp-Vb-Ba4"/>
                     <connections>
-                        <outlet property="porcentageLabel" destination="3Rj-h4-GEo" id="cft-MR-9qf"/>
-                        <outlet property="progressBar" destination="9eZ-rf-KdS" id="s7a-XK-bfc"/>
-                        <outlet property="progressBarBackgroundView" destination="Ily-iq-fow" id="a4f-Jj-HPI"/>
-                        <outlet property="progressBarWidth" destination="NUW-8z-ha9" id="Wt2-Gj-px3"/>
+                        <outlet property="porcentageLabel" destination="3Rj-h4-GEo" id="9Rn-gO-pu7"/>
+                        <outlet property="progressBar" destination="9eZ-rf-KdS" id="LN3-53-L3F"/>
+                        <outlet property="progressBarBackgroundView" destination="Ily-iq-fow" id="V3Q-fi-xk9"/>
+                        <outlet property="progressBarWidth" destination="NUW-8z-ha9" id="Iqt-OQ-7Eg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RPZ-7K-rOd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -3386,7 +3408,7 @@
                                     <constraint firstAttribute="width" constant="45" id="zIj-AG-3BP"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCD-6m-6cS">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCD-6m-6cS">
                                 <rect key="frame" x="40" y="658" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Conversa legal mas vou ter que sair...">
@@ -3444,7 +3466,7 @@
                                     <constraint firstAttribute="height" constant="11" id="ekr-Ej-DMF"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRq-sP-ic2">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRq-sP-ic2">
                                 <rect key="frame" x="56" y="726" width="278" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Bloquear usuário.">
@@ -3489,10 +3511,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="KjV-9Y-voV"/>
                     <connections>
-                        <outlet property="porcentageLabel" destination="Jj3-QQ-eQT" id="g5Z-aR-myp"/>
-                        <outlet property="progressBar" destination="6u0-Oo-PPX" id="2Km-fV-IK2"/>
-                        <outlet property="progressBarBackgroundView" destination="Jd9-Dl-ggX" id="RQa-88-3al"/>
-                        <outlet property="progressBarWidth" destination="rRV-5a-38O" id="8Q8-SV-K5j"/>
+                        <outlet property="porcentageLabel" destination="Jj3-QQ-eQT" id="31q-6A-V46"/>
+                        <outlet property="progressBar" destination="6u0-Oo-PPX" id="3Np-NA-89f"/>
+                        <outlet property="progressBarBackgroundView" destination="Jd9-Dl-ggX" id="6JU-k3-dtR"/>
+                        <outlet property="progressBarWidth" destination="rRV-5a-38O" id="ULn-kA-5Lb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zjd-tB-gcC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -3534,7 +3556,7 @@
                                     <constraint firstAttribute="width" constant="45" id="Ren-07-36r"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DMB-Gh-JPp">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DMB-Gh-JPp">
                                 <rect key="frame" x="40" y="658" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Conversa legal mas vou ter que sair...">
@@ -3592,7 +3614,7 @@
                                     <constraint firstAttribute="height" constant="11" id="fDQ-Lf-UQ2"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7UV-mc-AOi">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7UV-mc-AOi">
                                 <rect key="frame" x="56" y="726" width="278" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Bloquear usuário.">
@@ -3637,10 +3659,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="4au-kT-7NA"/>
                     <connections>
-                        <outlet property="porcentageLabel" destination="XnW-Qq-G3p" id="vuI-6x-W6p"/>
-                        <outlet property="progressBar" destination="sPF-sb-mrC" id="FYe-XJ-NSQ"/>
-                        <outlet property="progressBarBackgroundView" destination="Ten-x5-TqJ" id="spo-LS-Fac"/>
-                        <outlet property="progressBarWidth" destination="cUU-Ub-Xui" id="cuc-hy-xR2"/>
+                        <outlet property="porcentageLabel" destination="XnW-Qq-G3p" id="a3j-H6-dqA"/>
+                        <outlet property="progressBar" destination="sPF-sb-mrC" id="YQD-fh-ZI1"/>
+                        <outlet property="progressBarBackgroundView" destination="Ten-x5-TqJ" id="AuG-ew-CSz"/>
+                        <outlet property="progressBarWidth" destination="cUU-Ub-Xui" id="4uc-UN-XsD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AcZ-Tm-ISE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -3649,9 +3671,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ifr-yK-UDc"/>
-        <segue reference="Akm-Mf-wbI"/>
-        <segue reference="xNt-sV-Gbf"/>
+        <segue reference="OBK-Je-CAi"/>
+        <segue reference="iZS-hG-FwO"/>
+        <segue reference="zw6-Bl-wAc"/>
+        <segue reference="frw-um-wTi"/>
+        <segue reference="uDL-ZE-jDB"/>
+        <segue reference="3ye-k3-5Uz"/>
+        <segue reference="42o-BL-9Kb"/>
         <segue reference="ipt-rE-iMH"/>
         <segue reference="6NZ-uw-tsn"/>
         <segue reference="ggc-oO-neH"/>
