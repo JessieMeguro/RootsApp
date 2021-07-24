@@ -41,6 +41,9 @@ class QuestionViewController: UIViewController {
         if sender.tag == 3 {
             score += 3
         }
+        if sender.tag == 4 {
+            score -= 15
+        }
     }
     
     /*
