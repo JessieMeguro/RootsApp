@@ -7,7 +7,7 @@
 
 import UIKit
 
-var score : CGFloat = 100
+var score : CGFloat = 98
 
 class QuestionViewController: UIViewController {
 
