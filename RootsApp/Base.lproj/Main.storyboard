@@ -181,7 +181,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pCm-yg-UT5" secondAttribute="bottom" id="2Nr-ig-2KC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3ln-kK-fcS" secondAttribute="trailing" constant="60" id="2ZR-vQ-W2I"/>
@@ -268,7 +268,7 @@
                                 <rect key="frame" x="94" y="632" width="204" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Muito obrigada, eu sei disso.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -292,7 +292,7 @@
                                 <rect key="frame" x="86" y="690" width="215" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Na verdade, eu sou brasileira.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -303,7 +303,7 @@
                                 <rect key="frame" x="69" y="750" width="257" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Não sou um animal pra ser exótica.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -349,7 +349,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="duY-aR-3NE"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="ry6-eC-gwl" firstAttribute="top" secondItem="duY-aR-3NE" secondAttribute="top" constant="200" id="25i-76-NJJ"/>
                             <constraint firstItem="biB-iN-EwQ" firstAttribute="leading" secondItem="duY-aR-3NE" secondAttribute="leading" constant="20" id="7nh-3J-kPq"/>
@@ -430,7 +430,7 @@
                                 <rect key="frame" x="40" y="632" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Eu sou brasileira, cara.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -452,7 +452,7 @@
                                 <rect key="frame" x="40" y="690" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Meus pais são asiáticos, mas eu nasci aqui.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -500,7 +500,7 @@
                                 <rect key="frame" x="120" y="749" width="150" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Ah, eu sou do Japão.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -510,7 +510,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dDm-UK-0Ua"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="dDm-UK-0Ua" firstAttribute="trailing" secondItem="nXB-FV-bj8" secondAttribute="trailing" constant="50" id="9y3-sC-Qa5"/>
                             <constraint firstItem="OxV-h1-Gnz" firstAttribute="top" secondItem="dDm-UK-0Ua" secondAttribute="top" constant="20" id="Abg-C4-0Xl"/>
@@ -590,7 +590,7 @@
                                 <rect key="frame" x="40" y="632" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Eu sou brasileira, cara.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -612,7 +612,7 @@
                                 <rect key="frame" x="40" y="690" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Meus pais são asiáticos, mas eu nasci aqui.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -660,7 +660,7 @@
                                 <rect key="frame" x="120" y="749" width="150" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Ah, eu sou do Japão.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -670,7 +670,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xMg-0D-Sis"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="zPv-AU-tp3" firstAttribute="top" secondItem="xMg-0D-Sis" secondAttribute="top" constant="30" id="2CK-ds-Yff"/>
                             <constraint firstItem="zPv-AU-tp3" firstAttribute="leading" secondItem="xMg-0D-Sis" secondAttribute="leading" constant="20" id="2EG-e9-3bD"/>
@@ -750,7 +750,7 @@
                                 <rect key="frame" x="40" y="658" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Eu continuo sendo brasileira...">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -809,7 +809,7 @@
                                 <rect key="frame" x="56" y="726" width="278" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Ah, eu sou do Japão.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -819,7 +819,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8dM-iC-KqT"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="gl3-FR-Vda" firstAttribute="top" secondItem="XBm-IV-OLb" secondAttribute="bottom" constant="-96" id="0nu-36-Pvl"/>
                             <constraint firstItem="3Z3-Es-lSc" firstAttribute="top" secondItem="8dM-iC-KqT" secondAttribute="top" constant="20" id="0qe-5B-tsd"/>
@@ -899,7 +899,7 @@
                                 <rect key="frame" x="40" y="658" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Eu continuo sendo brasileira...">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -958,7 +958,7 @@
                                 <rect key="frame" x="56" y="726" width="278" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Ah, eu sou do Japão.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -968,7 +968,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nl9-bb-myE"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="nl9-bb-myE" firstAttribute="trailing" secondItem="4c7-VM-eWC" secondAttribute="trailing" constant="20" id="4iO-mM-PUv"/>
                             <constraint firstItem="f8T-yj-ES7" firstAttribute="top" secondItem="wmW-j4-GA2" secondAttribute="bottom" constant="33" id="5S2-Vc-btc"/>
@@ -1095,7 +1095,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Escolha sua comida favorita" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E2u-y5-iQQ">
                                 <rect key="frame" x="56" y="637" width="278" height="23"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
-                                <color key="textColor" systemColor="systemGray6Color"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r1x-72-svQ">
@@ -1141,7 +1141,7 @@
                                     <constraint firstAttribute="width" constant="85" id="ZcA-Rb-fQd"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
-                                <color key="textColor" systemColor="systemGray6Color"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cachorro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qvw-Mc-HoM">
@@ -1151,7 +1151,7 @@
                                     <constraint firstAttribute="width" constant="85" id="p7d-zH-TGj"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
-                                <color key="textColor" systemColor="systemGray6Color"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sushi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwk-sv-Cyo">
@@ -1161,12 +1161,12 @@
                                     <constraint firstAttribute="width" constant="85" id="gRy-x6-HBG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
-                                <color key="textColor" systemColor="systemGray6Color"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Q3t-A6-zvQ"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="iD8-wQ-fWG" firstAttribute="leading" secondItem="Q3t-A6-zvQ" secondAttribute="leading" constant="119" id="0IB-5v-bfd"/>
                             <constraint firstItem="E2u-y5-iQQ" firstAttribute="centerX" secondItem="d8f-ct-WKF" secondAttribute="centerX" id="0ux-mP-eec"/>
@@ -1304,7 +1304,7 @@
                                 <rect key="frame" x="56" y="693" width="278" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Ah, eu sou do Japão.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -1314,7 +1314,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Pf1-Ox-uVL"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="4WC-bp-X2r" firstAttribute="top" secondItem="Pf1-Ox-uVL" secondAttribute="top" constant="30" id="0n0-24-gY8"/>
                             <constraint firstItem="gDb-Ph-K8l" firstAttribute="top" secondItem="Pf1-Ox-uVL" secondAttribute="top" constant="20" id="3cU-W8-Yr5"/>
@@ -1390,7 +1390,7 @@
                                 <rect key="frame" x="40" y="632" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Eu na verdade nunca falei japonês, haha">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -1412,7 +1412,7 @@
                                 <rect key="frame" x="62" y="690" width="266" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Português, porque eu sou brasileira...">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -1460,7 +1460,7 @@
                                 <rect key="frame" x="108" y="749" width="174" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="E você ao menos pensa?">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -1470,7 +1470,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1VJ-5W-8dz"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="nAG-oW-dnq" firstAttribute="leading" secondItem="1VJ-5W-8dz" secondAttribute="leading" constant="20" id="0oG-1s-kTx"/>
                             <constraint firstItem="t7q-1o-xU7" firstAttribute="centerX" secondItem="nAG-oW-dnq" secondAttribute="centerX" id="48O-Xv-PmD"/>
@@ -1550,7 +1550,7 @@
                                 <rect key="frame" x="40" y="632" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Eu na verdade nunca falei japonês, haha">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -1572,7 +1572,7 @@
                                 <rect key="frame" x="62" y="690" width="266" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Português, porque eu sou brasileira...">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -1620,7 +1620,7 @@
                                 <rect key="frame" x="108" y="749" width="174" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="E você ao menos pensa?">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -1630,7 +1630,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Yby-az-bIM"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Z0d-Xu-9zD" firstAttribute="centerY" secondItem="3G2-8Y-WDQ" secondAttribute="centerY" id="0Eb-6d-N8H"/>
                             <constraint firstItem="Yby-az-bIM" firstAttribute="trailing" secondItem="RKk-tf-iFQ" secondAttribute="trailing" constant="20" id="1gy-kW-xdt"/>
@@ -1756,14 +1756,14 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Você foi bloqueada por Jão Hashi." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7v-vT-Zyv">
                                 <rect key="frame" x="48" y="691" width="294" height="26"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
-                                <color key="textColor" systemColor="systemGray6Color"/>
+                                <color key="textColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzV-dL-8M8">
                                 <rect key="frame" x="134.66666666666666" y="725" width="121" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Sair da conversa">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -1773,7 +1773,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oSR-nd-SuE"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="4GC-kl-xQE" firstAttribute="top" secondItem="oSR-nd-SuE" secondAttribute="top" constant="20" id="5un-32-HV4"/>
                             <constraint firstItem="f1t-xY-hsN" firstAttribute="leading" secondItem="oSR-nd-SuE" secondAttribute="leading" constant="20" id="A1I-Eg-UzU"/>
@@ -2071,7 +2071,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ihs-9b-Hdc"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="8zt-te-PSq" firstAttribute="centerY" secondItem="cpJ-bo-sms" secondAttribute="centerY" id="0kY-wM-6oT"/>
                             <constraint firstItem="1Vj-OE-bRH" firstAttribute="leading" secondItem="bzo-4K-aZW" secondAttribute="trailing" constant="6" id="3XI-hI-Nyk"/>
@@ -2379,7 +2379,7 @@
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NdG-3R-TD9"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.34285336544267125" green="0.26961809974132434" blue="0.39073940153065034" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="REW-gk-FK2" firstAttribute="leading" secondItem="Hwm-rY-uzM" secondAttribute="trailing" constant="50" id="1OY-ra-kAr"/>
                             <constraint firstItem="UC0-0h-rlx" firstAttribute="top" secondItem="p3C-cw-ugL" secondAttribute="bottom" constant="-27" id="2hT-vh-lbn"/>
@@ -2442,7 +2442,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2iZ-SY-N1t" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6541.538461538461" y="3186.9668246445494"/>
+            <point key="canvasLocation" x="6541.538461538461" y="3150.7109004739336"/>
         </scene>
         <!--Question View Controller-->
         <scene sceneID="TNT-8E-NTm">
@@ -2483,7 +2483,7 @@
                                 <rect key="frame" x="40" y="632" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Que bom, gambatê, haha!">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -2505,7 +2505,7 @@
                                 <rect key="frame" x="49" y="690" width="292" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Na verdade eu estou tentando aprender.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -2554,7 +2554,7 @@
                                 <rect key="frame" x="44.666666666666657" y="749" width="301" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="E o que significa ser asiática de verdade?">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -2564,7 +2564,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hVc-sp-1ad"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="jbo-1B-kwU" firstAttribute="leading" secondItem="YAm-9a-EK6" secondAttribute="trailing" constant="6" id="2Wm-MZ-HWP"/>
                             <constraint firstItem="EAp-dH-BY1" firstAttribute="leading" secondItem="T0N-Tr-XLw" secondAttribute="trailing" constant="-1" id="4YT-Ml-KI8"/>
@@ -2644,7 +2644,7 @@
                                 <rect key="frame" x="40" y="658" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Não, isso é rídiculo.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -2703,7 +2703,7 @@
                                 <rect key="frame" x="56" y="726" width="278" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Mandar áudio.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -2713,7 +2713,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WcL-Dq-Vk4"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="5Nu-1I-rRW" firstAttribute="top" secondItem="WcL-Dq-Vk4" secondAttribute="top" constant="30" id="3hp-w6-6TI"/>
                             <constraint firstAttribute="bottom" secondItem="eGq-ef-Uh3" secondAttribute="bottom" constant="20" id="6P3-1V-baj"/>
@@ -2794,7 +2794,7 @@
                                 <rect key="frame" x="40" y="658" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Não, isso é rídiculo.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -2853,7 +2853,7 @@
                                 <rect key="frame" x="56" y="726" width="278" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="É, meditar ajudaria muito agora...">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -2863,7 +2863,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="efj-bz-D8C"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="LqK-ny-a5e" secondAttribute="bottom" constant="20" id="0tF-YG-cZb"/>
                             <constraint firstItem="BgL-mR-ot6" firstAttribute="top" secondItem="efj-bz-D8C" secondAttribute="top" constant="20" id="1TI-N4-Qgf"/>
@@ -2944,7 +2944,7 @@
                                 <rect key="frame" x="40" y="632" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Não conheço ela, mas queria muito!">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -2966,7 +2966,7 @@
                                 <rect key="frame" x="37.666666666666657" y="690" width="315" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Sou mais parecida com a Scarlet Johansson">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -3015,7 +3015,7 @@
                                 <rect key="frame" x="52.666666666666657" y="749" width="285" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Ridículo, achar que amarelos são iguais.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -3025,7 +3025,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="r3q-rq-RRa"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="r3q-rq-RRa" firstAttribute="trailing" secondItem="8XE-aM-vxc" secondAttribute="trailing" constant="119" id="0fX-ul-Dyo"/>
                             <constraint firstItem="8XE-aM-vxc" firstAttribute="top" secondItem="r3q-rq-RRa" secondAttribute="top" constant="35" id="0mx-ah-NX9"/>
@@ -3105,7 +3105,7 @@
                                 <rect key="frame" x="40" y="632" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Não conheço ela, mas queria muito!">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -3127,7 +3127,7 @@
                                 <rect key="frame" x="37.666666666666657" y="690" width="315" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Sou mais parecida com a Scarlet Johansson">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -3176,7 +3176,7 @@
                                 <rect key="frame" x="53" y="749" width="284" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Ridiculo, achar que amarelos são iguais.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -3186,7 +3186,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="c0X-aN-fNG"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="9Ut-29-AcN" firstAttribute="leading" secondItem="l1H-BW-DW0" secondAttribute="trailing" constant="-1" id="AL8-6P-rN1"/>
                             <constraint firstItem="c0X-aN-fNG" firstAttribute="trailing" secondItem="Dgc-kb-OAa" secondAttribute="trailing" constant="40" id="BSI-Vl-dtC"/>
@@ -3266,7 +3266,7 @@
                                 <rect key="frame" x="40" y="658" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Conversa legal mas vou ter que sair...">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -3325,7 +3325,7 @@
                                 <rect key="frame" x="56" y="726" width="278" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Bloquear usuário.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -3335,7 +3335,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7iG-np-Is0"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Ily-iq-fow" firstAttribute="leading" secondItem="7iG-np-Is0" secondAttribute="leading" constant="20" id="268-6q-K8f"/>
                             <constraint firstItem="evX-BW-dJd" firstAttribute="centerY" secondItem="Ily-iq-fow" secondAttribute="centerY" id="4A5-DL-2Uv"/>
@@ -3416,7 +3416,7 @@
                                 <rect key="frame" x="40" y="658" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Conversa legal mas vou ter que sair...">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -3475,7 +3475,7 @@
                                 <rect key="frame" x="56" y="726" width="278" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Bloquear usuário.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -3485,7 +3485,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ehf-hh-ddY"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Jd9-Dl-ggX" firstAttribute="top" secondItem="ehf-hh-ddY" secondAttribute="top" constant="30" id="0oF-57-78F"/>
                             <constraint firstItem="ehf-hh-ddY" firstAttribute="trailing" secondItem="mCD-6m-6cS" secondAttribute="trailing" constant="40" id="0wP-ZH-Edr"/>
@@ -3566,7 +3566,7 @@
                                 <rect key="frame" x="40" y="658" width="310" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Conversa legal mas vou ter que sair...">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -3625,7 +3625,7 @@
                                 <rect key="frame" x="56" y="726" width="278" height="35"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <state key="normal" title="Bloquear usuário.">
-                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
@@ -3635,7 +3635,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eXO-dO-SST"/>
-                        <color key="backgroundColor" red="0.42120884920000001" green="0.41636888319999998" blue="0.59494854620000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3428533654" green="0.2696180997" blue="0.39073940150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="5YR-uu-SKF" firstAttribute="top" secondItem="drC-bq-w5b" secondAttribute="bottom" constant="-124" id="0Ko-jb-piF"/>
                             <constraint firstItem="D5k-y9-jvD" firstAttribute="leading" secondItem="PFn-zA-DSV" secondAttribute="trailing" constant="6" id="8hw-dO-fta"/>
@@ -3677,22 +3677,160 @@
             </objects>
             <point key="canvasLocation" x="6591" y="1154"/>
         </scene>
+        <!--Question View Controller-->
+        <scene sceneID="zxQ-sq-Pm4">
+            <objects>
+                <viewController id="elE-i6-4jl" customClass="QuestionViewController" customModule="RootsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NYY-sc-q7L" userLabel="Question1View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iU2-m0-tlm">
+                                <rect key="frame" x="20" y="74" width="71" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WeP-9z-xfh">
+                                        <rect key="frame" x="13.666666666666664" y="4.6666666666666714" width="44" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sf9-B0-14O">
+                                        <rect key="frame" x="0.0" y="0.0" width="71" height="30"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="n0r-pM-ZRU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Sf9-B0-14O" secondAttribute="trailing" id="52j-D8-wbe"/>
+                                    <constraint firstItem="WeP-9z-xfh" firstAttribute="centerY" secondItem="iU2-m0-tlm" secondAttribute="centerY" id="S29-cN-hCA"/>
+                                    <constraint firstItem="Sf9-B0-14O" firstAttribute="leading" secondItem="iU2-m0-tlm" secondAttribute="leading" id="Tvh-zC-HiC"/>
+                                    <constraint firstAttribute="bottom" secondItem="Sf9-B0-14O" secondAttribute="bottom" id="Ya6-PI-W0K"/>
+                                    <constraint firstAttribute="width" constant="71" id="eoe-0K-urc"/>
+                                    <constraint firstItem="WeP-9z-xfh" firstAttribute="centerX" secondItem="iU2-m0-tlm" secondAttribute="centerX" id="gEp-7u-5Nl"/>
+                                    <constraint firstAttribute="height" constant="30" id="kCc-ck-yB0"/>
+                                    <constraint firstItem="Sf9-B0-14O" firstAttribute="top" secondItem="iU2-m0-tlm" secondAttribute="top" id="yvp-JL-pdN"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O8l-iW-bdn">
+                                <rect key="frame" x="90" y="83.666666666666671" width="7" height="11"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="11" id="W7i-ak-n6M"/>
+                                    <constraint firstAttribute="width" constant="7" id="b1f-yE-DG7"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="CaixaApps" translatesAutoresizingMaskIntoConstraints="NO" id="KwO-8Z-ZUg">
+                                <rect key="frame" x="40" y="714" width="310" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="S5i-Tz-4I3"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Kl-ib-qvR">
+                                <rect key="frame" x="71" y="737" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="SMb-JN-z1C"/>
+                                    <constraint firstAttribute="height" constant="50" id="tRS-kn-Gm7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <state key="normal" image="Spotify">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HL6-Xn-XBy">
+                                <rect key="frame" x="269" y="737" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="DYn-LK-59n"/>
+                                    <constraint firstAttribute="height" constant="50" id="V2K-bD-NJ7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <state key="normal" image="Instagram">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bc3-ww-8Ot">
+                                <rect key="frame" x="169" y="737" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="0Gl-w7-PNB"/>
+                                    <constraint firstAttribute="height" constant="50" id="na6-go-LZ7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <state key="normal" image="Photos">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Ponto" translatesAutoresizingMaskIntoConstraints="NO" id="euy-Ol-t2g">
+                                <rect key="frame" x="190" y="783" width="8" height="8"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="8" id="TmA-QA-Nx4"/>
+                                    <constraint firstAttribute="width" constant="8" id="dtE-09-Vwc"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Ponto" translatesAutoresizingMaskIntoConstraints="NO" id="HyA-hR-3YH">
+                                <rect key="frame" x="290" y="783" width="8" height="8"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="8" id="25Y-Ja-WjL"/>
+                                    <constraint firstAttribute="width" constant="8" id="nbh-ub-dBm"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YcV-TE-2i1">
+                                <rect key="frame" x="50" y="148" width="289" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Samba"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fSe-ce-yZb"/>
+                        <color key="backgroundColor" red="0.1451005638" green="0.14509347080000001" blue="0.1450982988" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="KwO-8Z-ZUg" firstAttribute="leading" secondItem="5Kl-ib-qvR" secondAttribute="trailing" constant="-81" id="3aP-oP-gHV"/>
+                            <constraint firstItem="euy-Ol-t2g" firstAttribute="centerX" secondItem="Bc3-ww-8Ot" secondAttribute="centerX" id="5q2-37-qf9"/>
+                            <constraint firstItem="O8l-iW-bdn" firstAttribute="leading" secondItem="iU2-m0-tlm" secondAttribute="trailing" constant="-1" id="ADP-Ef-Nd0"/>
+                            <constraint firstItem="O8l-iW-bdn" firstAttribute="centerY" secondItem="iU2-m0-tlm" secondAttribute="centerY" id="Hyt-YI-kaQ"/>
+                            <constraint firstItem="5Kl-ib-qvR" firstAttribute="top" secondItem="KwO-8Z-ZUg" secondAttribute="bottom" constant="-73" id="KJ4-su-p1W"/>
+                            <constraint firstItem="iU2-m0-tlm" firstAttribute="leading" secondItem="fSe-ce-yZb" secondAttribute="leading" constant="20" id="RzJ-bd-RRj"/>
+                            <constraint firstItem="Bc3-ww-8Ot" firstAttribute="top" secondItem="KwO-8Z-ZUg" secondAttribute="bottom" constant="-73" id="V3K-8D-Xyi"/>
+                            <constraint firstItem="HL6-Xn-XBy" firstAttribute="leading" secondItem="KwO-8Z-ZUg" secondAttribute="trailing" constant="-81" id="ZvJ-Az-Kx6"/>
+                            <constraint firstItem="iU2-m0-tlm" firstAttribute="top" secondItem="fSe-ce-yZb" secondAttribute="top" constant="30" id="aPp-cr-tCI"/>
+                            <constraint firstItem="HL6-Xn-XBy" firstAttribute="top" secondItem="KwO-8Z-ZUg" secondAttribute="bottom" constant="-73" id="bhK-bY-ZC2"/>
+                            <constraint firstItem="HL6-Xn-XBy" firstAttribute="leading" secondItem="Bc3-ww-8Ot" secondAttribute="trailing" constant="50" id="egU-fY-lDy"/>
+                            <constraint firstItem="euy-Ol-t2g" firstAttribute="top" secondItem="KwO-8Z-ZUg" secondAttribute="bottom" constant="-27" id="f8t-La-6z9"/>
+                            <constraint firstItem="HyA-hR-3YH" firstAttribute="centerX" secondItem="HL6-Xn-XBy" secondAttribute="centerX" id="ot4-AS-xGF"/>
+                            <constraint firstItem="HyA-hR-3YH" firstAttribute="top" secondItem="KwO-8Z-ZUg" secondAttribute="bottom" constant="-27" id="pXe-ED-QXv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0yv-XQ-INO"/>
+                    <connections>
+                        <outlet property="porcentageLabel" destination="WeP-9z-xfh" id="l9Z-bR-nJ0"/>
+                        <outlet property="progressBar" destination="Sf9-B0-14O" id="HV7-Pr-nza"/>
+                        <outlet property="progressBarBackgroundView" destination="iU2-m0-tlm" id="9hU-mY-CiK"/>
+                        <outlet property="progressBarWidth" destination="52j-D8-wbe" id="ZBo-ky-Osu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zTu-Yh-M5o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7716.9230769230762" y="3150.7109004739336"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="OBK-Je-CAi"/>
-        <segue reference="iZS-hG-FwO"/>
-        <segue reference="zw6-Bl-wAc"/>
-        <segue reference="frw-um-wTi"/>
+        <segue reference="w2t-GZ-DFl"/>
+        <segue reference="lp6-Ar-qzu"/>
+        <segue reference="v4U-yh-0KH"/>
+        <segue reference="cDE-Pk-EP9"/>
         <segue reference="uDL-ZE-jDB"/>
         <segue reference="3ye-k3-5Uz"/>
         <segue reference="42o-BL-9Kb"/>
         <segue reference="ipt-rE-iMH"/>
         <segue reference="JON-t6-sCz"/>
         <segue reference="6NZ-uw-tsn"/>
-        <segue reference="ggc-oO-neH"/>
+        <segue reference="0E4-Uv-wId"/>
         <segue reference="iaY-y0-2Qw"/>
         <segue reference="IM2-lk-TgV"/>
-        <segue reference="1zp-lb-Kro"/>
+        <segue reference="ojq-5t-Lmv"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Bateria98" width="1269" height="455"/>
@@ -3717,6 +3855,7 @@
         <image name="Instagram" width="229" height="228"/>
         <image name="Photos" width="265" height="238"/>
         <image name="Ponto" width="40" height="43"/>
+        <image name="Samba" width="2048" height="2048"/>
         <image name="Spotify" width="222" height="232"/>
         <image name="StopTheHate" width="2048" height="2048"/>
         <image name="Strogonoff" width="594" height="481"/>
