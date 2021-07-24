@@ -2125,7 +2125,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6zz-PB-vDL" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3593.8461538461538" y="3081.7535545023698"/>
+            <point key="canvasLocation" x="6543" y="2352"/>
         </scene>
         <!--Question View Controller-->
         <scene sceneID="Skv-NN-t60">
@@ -2440,7 +2440,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2iZ-SY-N1t" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2885" y="3082"/>
+            <point key="canvasLocation" x="6543" y="3187"/>
         </scene>
         <!--Question View Controller-->
         <scene sceneID="TNT-8E-NTm">
@@ -3269,6 +3269,7 @@
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="FPR-3e-09N" eventType="touchUpInside" id="eSc-Wn-m4A"/>
+                                    <segue destination="uDZ-Rz-ZLi" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="FHw-B5-rIY"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Você deu sorte de ter traços bonitos, tipo Kpop. A maioria dos japas sai feinho." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zmo-dS-dAo">
@@ -3327,6 +3328,7 @@
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="FPR-3e-09N" eventType="touchUpInside" id="eRq-iS-GS5"/>
+                                    <segue destination="uDZ-Rz-ZLi" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="hEA-yd-xuO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3417,6 +3419,7 @@
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="bZU-RI-8yQ" eventType="touchUpInside" id="15X-iO-QCY"/>
+                                    <segue destination="uDZ-Rz-ZLi" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="lWR-e4-bLG"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="É porque ela é branquinha igual, deu sorte de ter traços bonitos, igual Kpop." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Pw5-rM-iEa">
@@ -3475,6 +3478,7 @@
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="bZU-RI-8yQ" eventType="touchUpInside" id="yqg-vA-OhV"/>
+                                    <segue destination="uDZ-Rz-ZLi" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="JON-t6-sCz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3565,6 +3569,7 @@
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="du4-hM-bDG" eventType="touchUpInside" id="t7A-yy-PvX"/>
+                                    <segue destination="uDZ-Rz-ZLi" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="xXI-T3-Ohr"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Sempre que me comparam eu nunca me ofendo. Você deu sorte de ter traços bonitos, tipo Kpop." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="drC-bq-w5b">
@@ -3623,6 +3628,7 @@
                                 </state>
                                 <connections>
                                     <action selector="question1Tap:" destination="du4-hM-bDG" eventType="touchUpInside" id="eva-eC-V7g"/>
+                                    <segue destination="uDZ-Rz-ZLi" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="dVV-b4-y5i"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3679,6 +3685,7 @@
         <segue reference="3ye-k3-5Uz"/>
         <segue reference="42o-BL-9Kb"/>
         <segue reference="ipt-rE-iMH"/>
+        <segue reference="JON-t6-sCz"/>
         <segue reference="6NZ-uw-tsn"/>
         <segue reference="ggc-oO-neH"/>
         <segue reference="iaY-y0-2Qw"/>

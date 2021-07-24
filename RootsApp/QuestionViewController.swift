@@ -34,14 +34,11 @@ class QuestionViewController: UIViewController {
     @IBAction func question1Tap(_ sender: UIButton) {
         if sender.tag == 1 {
             score -= 5
-        }
-        if sender.tag == 2 {
+        } else if sender.tag == 2 {
             score -= 3
-        }
-        if sender.tag == 3 {
+        } else if sender.tag == 3 {
             score += 3
-        }
-        if sender.tag == 4 {
+        } else if sender.tag == 4 {
             score -= 15
         }
     }
